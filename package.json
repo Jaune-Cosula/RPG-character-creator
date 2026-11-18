@@ -1,0 +1,10 @@
+{
+  "name": "northern-hero-forge",
+  "version": "0.1.0",
+  "description": "RuneQuest-style character & NPC generator for a Kalevalan Finland / Viking Age Scandinavia home game. Runs entirely in the browser.",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "test": "node test/smoke.mjs"
+  }
+}
