@@ -402,7 +402,10 @@ header, main, section, footer { position: relative; z-index: 1; }
 
   .no-print, .toast { display: none !important; }
 
+  .layout { display: block; max-width: none; margin: 0; padding: 0; }
+
   #sheet { margin: 0; }
+  .sheet-empty { display: none; }
 
   .sheet {
     border: 1.5px solid #000;
